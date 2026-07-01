@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-mima",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "ESLint rules for detecting unattested AI SDK calls in TypeScript — developer feedback, not evidence generation",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -22,5 +22,11 @@
     "typescript": "^5.4.0",
     "vitest": "^2.0.0"
   },
-  "files": ["dist", "README.md"]
+  "files": ["dist", "README.md"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mima-ai/eslint-plugin-mima"
+  },
+  "homepage": "https://docs.mima.ai/eslint",
+  "bugs": "https://github.com/mima-ai/eslint-plugin-mima/issues"
 }
