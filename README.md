@@ -113,6 +113,6 @@ The ESLint plugin is the earliest signal. Use all three for defence-in-depth.
 
 ## Links
 
-- [Full ESLint plugin docs](https://docs.mima.ai/eslint)
-- [TypeScript SDK](https://docs.mima.ai/typescript)
-- [mima.ai](https://mima.ai)
+- [Full ESLint plugin docs](https://docs.mima.works/eslint)
+- [TypeScript SDK](https://docs.mima.works/typescript)
+- [mima.works](https://mima.works)

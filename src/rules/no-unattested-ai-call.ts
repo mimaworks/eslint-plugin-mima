@@ -13,7 +13,7 @@ import { ESLintUtils, TSESTree, AST_NODE_TYPES } from "@typescript-eslint/utils"
 import { AI_PACKAGES, ATTEST_WRAPPERS } from "../ai-packages"
 
 const createRule = ESLintUtils.RuleCreator(
-  (name) => `https://docs.mima.ai/eslint/${name}`
+  (name) => `https://docs.mima.works/eslint/${name}`
 )
 
 type MessageIds = "unattestedAiCall"
