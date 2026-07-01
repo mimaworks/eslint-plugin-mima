@@ -53,6 +53,18 @@ export const AI_PACKAGES: Record<string, string[]> = {
     "stream",
   ],
 
+  // Google Gemini
+  "@google/generative-ai": [
+    "generateContent",
+    "generateContentStream",
+  ],
+
+  // Azure OpenAI
+  "@azure/openai": [
+    "getChatCompletions",
+    "streamChatCompletions",
+  ],
+
   // Cohere
   "cohere-ai": [
     "chat",
