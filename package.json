@@ -45,6 +45,6 @@
     "type": "git",
     "url": "git+https://github.com/mimaworks/eslint-plugin-mima.git"
   },
-  "homepage": "https://docs.mima.works/eslint",
+  "homepage": "https://docs.mima.works",
   "bugs": "https://github.com/mimaworks/eslint-plugin-mima/issues"
 }
