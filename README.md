@@ -1,4 +1,4 @@
-# eslint-plugin-mima
+# @mima-ai/eslint-plugin-mima
 
 ESLint rules for detecting unattested AI SDK calls in TypeScript and JavaScript.
 
@@ -7,7 +7,9 @@ Catches AI library calls that are not wrapped with `mima.wrap()` at lint time â€
 ## Install
 
 ```bash
-npm install --save-dev eslint-plugin-mima
+npm install --save-dev @mima-ai/eslint-plugin-mima
+
+> **Migrating from `eslint-plugin-mima`?** Replace the package name and update plugin references from `"mima"` to `"@mima-ai/mima"` in `.eslintrc`, or keep using the alias `mima` in flat config.
 ```
 
 ## Configure
@@ -16,7 +18,7 @@ npm install --save-dev eslint-plugin-mima
 
 ```javascript
 // eslint.config.js
-import mima from 'eslint-plugin-mima';
+import mima from '@mima-ai/eslint-plugin-mima';
 
 export default [
   {
@@ -32,9 +34,9 @@ export default [
 
 ```json
 {
-  "plugins": ["mima"],
+  "plugins": ["@mima-ai/mima"],
   "rules": {
-    "mima/no-unattested-ai-call": "error"
+    "@mima-ai/mima/no-unattested-ai-call": "error"
   }
 }
 ```
@@ -43,7 +45,7 @@ Or use the built-in configs:
 
 ```javascript
 // eslint.config.js
-import mima from 'eslint-plugin-mima';
+import mima from '@mima-ai/eslint-plugin-mima';
 
 export default [
   mima.configs.recommended,  // warn

@@ -1,5 +1,5 @@
 {
-  "name": "eslint-plugin-mima",
+  "name": "@mima-ai/eslint-plugin-mima",
   "version": "0.1.6",
   "description": "ESLint rules for detecting unattested AI SDK calls in TypeScript — developer feedback, not evidence generation",
   "main": "dist/index.js",

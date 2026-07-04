@@ -1,5 +1,5 @@
 /**
- * eslint-plugin-mima
+ * @mima-ai/eslint-plugin-mima
  *
  * ESLint rules for detecting unattested AI SDK calls in TypeScript.
  *
@@ -18,15 +18,15 @@ export const rules = {
 
 export const configs = {
   recommended: {
-    plugins: ["mima"],
+    plugins: ["@mima-ai/mima"],
     rules: {
-      "mima/no-unattested-ai-call": "warn",
+      "@mima-ai/mima/no-unattested-ai-call": "warn",
     },
   },
   strict: {
-    plugins: ["mima"],
+    plugins: ["@mima-ai/mima"],
     rules: {
-      "mima/no-unattested-ai-call": "error",
+      "@mima-ai/mima/no-unattested-ai-call": "error",
     },
   },
 }
